@@ -1,0 +1,33 @@
+
+.App{
+  min-height: 100vh;
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+}
+.search-form{
+  display: flex;
+    justify-content: center;
+    min-height: 10vh;
+    align-items: center;
+}
+.search-bar{
+ width:50%;
+ border:none;
+ padding: 10px;
+}
+
+  .search-button{
+    border: none;
+    padding: 10px;
+    color: white;
+    background-color: black;
+  }
+.search-button:hover{
+  color: black;
+  background-color: rgb(179, 67, 67);
+}
+
+.recipeee{
+ display: flex;
+justify-content:space-around;
+flex-wrap: wrap;
+}
